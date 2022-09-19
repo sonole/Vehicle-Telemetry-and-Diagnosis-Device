@@ -6,7 +6,7 @@
 
 <div>
 <h3>The Idea</h3>
-<img src="https://apaliampelos.me/assets/images/github/idea.png" alt="Project idea"/>
+<img src="https://apaliampelos.me/assets/images/github/idea.jpg" alt="Project idea"/>
 <p>
 <ul>
 <li>The implemented system is based on wireless telemetry.</li>
@@ -46,7 +46,7 @@ Note: you can use Socet Test 3 to send and receive packets via GSM. For that you
 
 <div>
 <h3>Wiring and executing</h3>
-<img src="https://apaliampelos.me/assets/images/github/rdt0001_circuit.png" alt="Wiring diagram"/>
+<img src="https://apaliampelos.me/assets/images/github/wiring.jpg" alt="Wiring diagram"/>
 <p>
 Wire components as the diagram above.<br>
 Edit IP and Port info at line 125 of the code (remember to also inlcude libraries).<br>
