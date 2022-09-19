@@ -7,7 +7,7 @@
 
 <div>
 <h3>The Idea</h3>
-<img src="https://apaliampelos.me/assets/images/github/idea.jpg" alt="Project idea"/>
+<img src="https://apaliampelos.me/assets/images/github/vehicle-telemetry-and-diagnosis-device/idea.jpg" alt="Project idea"/>
 <p>
 <ul>
 <li>The implemented system is based on wireless telemetry.</li>
@@ -47,7 +47,7 @@ Note: you can use Socet Test 3 to send and receive packets via GSM. For that you
 
 <div>
 <h3>Wiring and executing</h3>
-<img src="https://apaliampelos.me/assets/images/github/wiring.jpg" alt="Wiring diagram"/>
+<img src="https://apaliampelos.me/assets/images/github/vehicle-telemetry-and-diagnosis-device/wiring.jpg" alt="Wiring diagram"/>
 <p>
 Wire components as the diagram above.<br>
 Edit IP and Port info at line 125 of the code (remember to also inlcude libraries).<br>
@@ -57,10 +57,10 @@ Upload code to device and then connect obd II at vehicle.<br>
 <h3>Important Notes:</h3>
 In order to successfull get CAN BUS packets from vehicle you need to understand how <a href="https://en.wikipedia.org/wiki/OBD-II_PIDs" target="_blank">OBD-II PIDs</a> work and edit accordingly at code.
 Simple example is shown below 
-<img src="https://apaliampelos.me/assets/images/github/pids_supported.jpg" alt="PIDs supported"/>
+<img src="https://apaliampelos.me/assets/images/github/vehicle-telemetry-and-diagnosis-device/pids_supported.jpg" alt="PIDs supported"/>
 <br>
 After finding what PIDs your vehicle supports, then you can start to parse packets based on PID number.
 Finally the packet is ready to send to remote IP (packet example below)
-<img src="https://apaliampelos.me/assets/images/github/string_generated.jpg" alt="Packet generated"/>
+<img src="https://apaliampelos.me/assets/images/github/vehicle-telemetry-and-diagnosis-device/string_generated.jpg" alt="Packet generated"/>
 
 </div>
