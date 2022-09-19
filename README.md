@@ -46,7 +46,10 @@ Note: you can use Socet Test 3 to send and receive packets via GSM. For that you
 
 <div>
 <h3>Wiring</h3>
-<p>
 <img src="https://apaliampelos.me/assets/images/github/rdt0001_circuit.png" alt="Wiring diagram"/>
+<p>
 Wire components as the diagram above
 </p>
+</div>
+
+
