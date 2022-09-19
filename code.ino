@@ -118,11 +118,11 @@
 118.	  } else { Serial.println(F("Error closing GPRS PDP context")); }
 119.	  return false;
 120.	}
-121.	 
+      
+121.	 //Replace XXX.XXX.XXX.XXX. with your IP and YYYYY with your port! 
 122.	boolean openTCP() {
-123.	 Serial.print(F("Openning TCP with server XXX.XXX.XXX.XXX at port 20222...."));
-124.	 //Serial.print(F("Openning TCP with server XXX.XX.XX.XX at port 20222....")); //(tests on local pc)
-125.	  if (sendATcommand2("AT+CIPSTART=\"TCP\",\"XXX.XX.XX.XX\",\"20222\"",
+123.	 Serial.print(F("Openning TCP with server XXX.XXX.XXX.XXX at port YYYYY...."));
+125.	  if (sendATcommand2("AT+CIPSTART=\"TCP\",\"XXX.XX.XX.XX\",\"YYYYY\"",
 126.	                   "CONNECT OK", "CONNECT FAIL", 10000) == 1)
 127.	  {
 128.	    Serial.println(F("success!"));
@@ -215,11 +215,9 @@
 215.	 
 216.	  Serial.print(F("Getting Data from CAN........."));
 217.	  /*
-218.	    //0x983BA013;32.5;15;96;851;5;17;16.5;87.1;0x01;0x06;0x002A;NO DTCs;*2867
-219.	  // serv01pid00;0x04;05;0b;0c;0d;0f;0x10;0x11; 13 ;0x1c;0x1f ; opos ein;CRC
 220.	                        //04 --> egine load
 221.	                         //05--> coolant temp
-222.	                          //..............................0x1c--->obd pou ypakoyei
+222.	         
 223.	  */
 224.	    /* pids:
 225.	   * 0x04 0x06 0x0b 0x0c 0x0d 0x0f 0x11
