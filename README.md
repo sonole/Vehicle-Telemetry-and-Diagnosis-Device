@@ -55,7 +55,7 @@ Upload code to device and then connect obd II at vehicle.<br>
 </p>
 
 <h3>Important Notes:</h3>
-In order to successfull get CAN BUS packets from vehicle you need to understand how <a target="_blank" href="https://en.wikipedia.org/wiki/OBD-II_PIDs">OBD-II PIDs</a> work and edit accordingly at code.
+In order to successfull get CAN BUS packets from vehicle you need to understand how <a href="https://en.wikipedia.org/wiki/OBD-II_PIDs" target="_blank">OBD-II PIDs</a> work and edit accordingly at code.
 Simple example is shown below 
 <img src="https://apaliampelos.me/assets/images/github/pids_supported.jpg" alt="PIDs supported"/>
 <br>
