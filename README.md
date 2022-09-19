@@ -45,11 +45,21 @@ Note: you can use Socet Test 3 to send and receive packets via GSM. For that you
 <br><hr><br>
 
 <div>
-<h3>Wiring</h3>
+<h3>Wiring and executing</h3>
 <img src="https://apaliampelos.me/assets/images/github/rdt0001_circuit.png" alt="Wiring diagram"/>
 <p>
 Wire components as the diagram above.<br>
 Edit IP and Port info at line 125 of the code (remember to also inlcude libraries).<br>
 Upload code to device and then connect obd II at vehicle.<br>
 </p>
+
+<h3>Important Notes:</h3>
+In order to successfull get CAN BUS packets from vehicle you need to understand how <a target="_blank" href="https://en.wikipedia.org/wiki/OBD-II_PIDs">OBD-II PIDs</a> work and edit accordingly at code.
+Simple example is shown below 
+<img src="https://apaliampelos.me/assets/images/github/pids_supported.jpg" alt="PIDs supported"/>
+<br>
+After finding what PIDs your vehicle supports, then you can start to parse packets based on PID number.
+Finally the packet is ready to send to remote IP (packet example below)
+<img src="https://apaliampelos.me/assets/images/github/string_generated.jpg" alt="Packet generated"/>
+
 </div>
