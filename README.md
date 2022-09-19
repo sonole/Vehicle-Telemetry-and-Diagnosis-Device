@@ -6,7 +6,7 @@
 
 <div>
 <h3>The Idea</h3>
-<img src="https://apaliampelos.me/assets/images/github/rdt0001_2.jpg" alt="Project idea"/>
+<img src="https://apaliampelos.me/assets/images/github/idea.png" alt="Project idea"/>
 <p>
 <ul>
 <li>The implemented system is based on wireless telemetry.</li>
@@ -48,8 +48,8 @@ Note: you can use Socet Test 3 to send and receive packets via GSM. For that you
 <h3>Wiring</h3>
 <img src="https://apaliampelos.me/assets/images/github/rdt0001_circuit.png" alt="Wiring diagram"/>
 <p>
-Wire components as the diagram above
+Wire components as the diagram above.<br>
+Edit IP and Port info at line 125 of the code (remember to also inlcude libraries).<br>
+Upload code to device and then connect obd II at vehicle.<br>
 </p>
 </div>
-
-
